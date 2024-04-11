@@ -30,7 +30,10 @@ public class MyOperators3 : MonoBehaviour
         anyName /= 10;
         ++anyName;
 
-        TextMeshPro.text = $"{anyName}";
+        int anyName2 = 18;
+        anyName2++;
+
+        TextMeshPro.text = $"anyName: {anyName} anyName2: {anyName2}";
 
 
 
