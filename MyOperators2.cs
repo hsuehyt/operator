@@ -37,7 +37,10 @@ public class MyOperators3 : MonoBehaviour
 
         int anyName4 = 5 / 2;
 
-        TextMeshPro.text = $"anyName: {anyName} anyName2: {anyName2} anyName3: {anyName3} anyName4: {anyName4}";
+        int anyName5 = 5 % 2;
+
+        TextMeshPro.text = $"anyName: {anyName} anyName2: {anyName2} anyName3: {anyName3} anyName4: {anyName4}" +
+            $"anyName5: {anyName5}";
 
 
 
