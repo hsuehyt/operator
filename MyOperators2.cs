@@ -47,7 +47,11 @@ public class MyOperators3 : MonoBehaviour
         int additional = 18;
         int solution = additional - multiplication + 1;
 
-        TextMeshPro.text = $"anyName: {anyName} anyName2: {anyName2} anyName3: {anyName3} anyName4: {anyName4} anyName5: {anyName5} anyName6: {anyName6} anyName7:{anyName7} solution:{solution}";
+        float conversion = (float)100;
+        int largeNumber = 1_000_000;
+        byte smallNumber = (byte)largeNumber;
+
+        TextMeshPro.text = $"anyName: {anyName} anyName2: {anyName2} anyName3: {anyName3} anyName4: {anyName4} anyName5: {anyName5} anyName6: {anyName6} anyName7:{anyName7} solution:{solution} conversion:{conversion} largeNumber:{largeNumber} smallNumber:{smallNumber}";
 
 
 
