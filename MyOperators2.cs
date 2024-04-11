@@ -43,7 +43,11 @@ public class MyOperators3 : MonoBehaviour
 
         int anyName7 = 18 - 3 * 6 + 1;
 
-        TextMeshPro.text = $"anyName: {anyName} anyName2: {anyName2} anyName3: {anyName3} anyName4: {anyName4} anyName5: {anyName5} anyName6: {anyName6} anyName7:{anyName7}";
+        int multiplication = 3 * 6;
+        int additional = 18;
+        int solution = additional - multiplication + 1;
+
+        TextMeshPro.text = $"anyName: {anyName} anyName2: {anyName2} anyName3: {anyName3} anyName4: {anyName4} anyName5: {anyName5} anyName6: {anyName6} anyName7:{anyName7} solution:{solution}";
 
 
 
